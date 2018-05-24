@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Guessing Game</title>
+    <!--css-->
+    <link rel="stylesheet" type="text/css" href="reset.css">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <!--bootstrap-->
+    <link rel="stylesheet" type="text/css" href=https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css>
+    <!--font-->
+    <link href="https://fonts.googleapis.com/css?family=Roboto+Mono" rel="stylesheet">
+</head>
+
+<body>
+
+    <div id='app' class='center'>
+
+        <div id='headers'>
+            <h1 id='title' >Guessing Game</h1>
+            <h3 id='subtitle'>Pick a number between 1-100</h3>
+        </div>
+
+        <div id='main'>
+            <div id='input-parent'>
+
+                <input id='players-input' class='center' placeholder='?' type="text" maxlength="3" autofocus=autofocus>
+
+                <button id='submit' class='btn btn-dark'>
+                    Go!
+                </button>
+            </div>
+
+            <div id='guesses'>
+
+
+                <ul id='guess-list'>
+                    <li class='guess'>_</li>
+                    <li class='guess'>_</li>
+                    <li class='guess'>_</li>
+                    <li class='guess'>_</li>
+                    <li class='guess'>_</li>
+                </ul>
+
+            </div>
+
+            <div id="menu-btns center">
+
+                <button id='reset' class="btn btn-secondary">Reset</button>
+                <button id='hint' class="btn btn-info">Hint</button>
+            </div>
+        </div>
+    </div>
+
+
+
+    <div id='footer' class='center'>
+        <div class='row'>
+            <div class='col-sm-4'>
+                <img src='imgs/fa-logo@2x.png'></img>
+            </div>
+
+            <div class='col-sm-4'>
+                <h5 class='center h5'>Project by Jessica Smith</h5>
+            </div>
+
+            <div class='col-sm-4 grace' >
+                <img src='imgs/grace_hopper_academy.png'></img>
+            </div>
+
+
+        </div>
+    </div>
+
+</body>
+
+</html>
